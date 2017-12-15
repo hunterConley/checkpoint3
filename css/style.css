@@ -1,0 +1,50 @@
+body {
+  background: linear-gradient(to bottom, black, #780201, black);
+  color: black;
+  margin: auto;
+  text-align: center;
+}
+.container {
+  font-family: 'Bungee';
+  background-color: #780201;
+  width: 75%;
+  height: auto;
+  border-radius: 10%;
+}
+body h1 {
+  text-align: center;
+  font-size: 80px;
+}
+#totalClicks {
+  background-color: grey;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  margin-bottom: 20px;
+  padding: 0 10px 0 10px;
+  border: solid 2px black;
+  border-radius: 4px;
+}
+#harambe {
+  display: block;
+  margin: auto;
+  width: 50%;
+  border-radius: 30%;
+  margin-bottom: 20px;
+}
+#accumulatedTotal {
+  background-color: grey;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  margin-bottom: 20px;
+  padding: 0 10px 0 10px;
+  border: solid 2px black;
+  border-radius: 4px;
+}
+footer h5 {
+  font-family: 'Bungee';
+  color: white;
+  line-height: 100%;
+  margin-top: 5px;
+}

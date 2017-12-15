@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="Fun Click Game For Harambe" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Hunter Conley">
+  <!-- Media Query Tag -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Tab Title -->
+  <title>Clicks - </title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+  <!-- Bootstrap Link -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <!-- Link in StyleSheets -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/reset.css">
+</head>
+
+<body>
+  <div class="container">
+
+  <!-- Page Heading -->
+  <h1>Clicks For Harambe</h1>
+
+  <!-- Total Click Counter -->
+  <div id="totalClicks">
+    <h2>Clicks per Second - <span id="clicks">0.0</span></h2>
+  </div>
+
+  <!-- Clickable Image -->
+  <img src="./img/harambe1.jpg" class="img-fluid" id="harambe" alt="harambe the gorilla">
+
+  <!-- Accumulated Total Clicks Before User Spending -->
+  <div id="accumulatedTotal">0</div>
+
+  <!-- Buttons For User Spending -->
+  <div class="buttons">
+    <div class="row">
+      <div class="col-md-6">
+        <button type="button" class="button1 btn" data-val="1" data-cost="10">Banana - <span>10</span></button>
+      </div>
+      <div class="col-md-6">
+        <button type="button" class="button2 btn" data-val="10" data-cost="100">Banana Cluster - <span>100</span></button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <button type="button" class="button3 btn" data-val="100" data-cost="1000">Innocent Child - <span>1000</span></button>
+      </div>
+      <div class="col-md-6">
+        <button type="button" class="button4 btn" data-val="1000" data-cost="10000">Zookeeper - <span>10000</span></button>
+      </div>
+    </div>
+  </div>
+
+
+  <h4>No gorillas were harmed in the making of this game</h4>
+
+  </div>
+
+<footer>
+  <h5>Hunter Conley<br>Austin Coding Academy<br> Checkpoint 3</h5>
+</footer>
+  <!-- JavaScript Links -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/JavaScript" href="./js/script.js"></script>
+</body>
+
+</html>
