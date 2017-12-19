@@ -57,7 +57,6 @@ $(document).ready(function() {
   //Add an event handler for button 4 which ends the game.
   $('.button4').click(function() {
     $('.gameover').text('You killed Harambe!');
-    $('.gameover').text('R.I.P. 1999-2016')
     $('.container').hide();
     $('#harambe2').show();
     $("footer").hide();
