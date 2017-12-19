@@ -7,7 +7,7 @@
   <!-- Media Query Tag -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Tab Title -->
-  <title>Clicks - </title>
+  <title></title>
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
   <!-- Bootstrap Link -->
@@ -20,21 +20,28 @@
 </head>
 
 <body>
+
   <div class="container">
 
   <!-- Page Heading -->
-  <h1>Clicks For Harambe</h1>
+  <h1>Clicks Out For Harambe</h1>
 
   <!-- Total Click Counter -->
   <div id="totalClicks">
-    <h2>Clicks per Second - <span id="clicks">0.0</span></h2>
+    <h2>Clicks Per Second - <span id="clicks"></span></h2>
   </div>
 
   <!-- Clickable Image -->
   <img src="./img/harambe1.jpg" class="img-fluid" id="harambe" alt="harambe the gorilla">
 
+  <!-- Tell the user how to play -->
+  <div id="rules">
+    <h2>Click Harambe above to earn 1 Click</h2>
+  </div>
+
   <!-- Accumulated Total Clicks Before User Spending -->
   <div id="accumulatedTotal">0</div>
+
 
   <!-- Buttons For User Spending -->
   <div class="buttons">
@@ -51,22 +58,27 @@
         <button type="button" class="button3 btn" data-val="100" data-cost="1000">Innocent Child - <span>1000</span></button>
       </div>
       <div class="col-md-6">
-        <button type="button" class="button4 btn" data-val="1000" data-cost="10000">Zookeeper - <span>10000</span></button>
+        <button type="button" class="button4 btn btn-danger" data-val="1000" data-cost="10000">Zookeeper - <span>10000</span></button>
       </div>
     </div>
   </div>
 
 
-  <h4>No gorillas were harmed in the making of this game</h4>
+  <h4>&#9660;No gorillas were harmed in the making of this game&#9660;</h4>
 
   </div>
 
+  <!-- Game over Image -->
+  <img src="./img/harambe2.jpg" class="img-fluid" id="harambe2" alt="harambeFinal">
+  <div class="gameover"></div>
+
 <footer>
-  <h5>Hunter Conley<br>Austin Coding Academy<br> Checkpoint 3</h5>
+  <h5>Hunter Conley<br>Austin Coding Academy<br>Checkpoint 3</h5>
 </footer>
+
   <!-- JavaScript Links -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/JavaScript" href="./js/script.js"></script>
+  <script type="text/javascript" src="./js/script.js"></script>
 </body>
 
 </html>

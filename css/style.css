@@ -13,7 +13,7 @@ body {
 }
 body h1 {
   text-align: center;
-  font-size: 80px;
+  font-size: 300%;
 }
 #totalClicks {
   background-color: grey;
@@ -31,6 +31,18 @@ body h1 {
   width: 50%;
   border-radius: 30%;
   margin-bottom: 20px;
+  cursor: pointer;
+}
+#rules {
+  background-color: grey;
+  display: block;
+  width: 40%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 0 10px 0 10px;
+  border: solid 2px black;
+  border-radius: 4px;
 }
 #accumulatedTotal {
   background-color: grey;
@@ -41,6 +53,18 @@ body h1 {
   padding: 0 10px 0 10px;
   border: solid 2px black;
   border-radius: 4px;
+}
+#harambe2 {
+  margin: auto;
+  width: 50%;
+  height: 50%;
+}
+.gameover {
+  font-family: 'Bungee';
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  color: white;
 }
 footer h5 {
   font-family: 'Bungee';
