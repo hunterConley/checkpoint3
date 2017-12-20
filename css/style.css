@@ -58,6 +58,7 @@ body h1 {
   margin: auto;
   width: 50%;
   height: 50%;
+  border-radius: 10%;
 }
 .gameover {
   font-family: 'Bungee';
