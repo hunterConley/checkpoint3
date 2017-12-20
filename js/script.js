@@ -19,11 +19,11 @@ $(document).ready(function() {
     data.totalClicks += data.actualTotal;
     data.accumulatedTotal += data.actualTotal;
     document.title = ('Clicks - ' + data.accumulatedTotal);
-    updateReport();
+    updateTotal();
   };
 
   //Function to accumulate all Clicks
-  function updateReport() {
+  function updateTotal() {
     $("#clicks").text(data.actualTotal);
     $("#accumulatedTotal").text(Math.floor(data.accumulatedTotal));
   };
@@ -32,7 +32,7 @@ $(document).ready(function() {
   $("#harambe").click(function() {
     data.totalClicks ++;
     data.accumulatedTotal ++;
-    updateReport();
+    updateTotal();
   });
 
   //Event handlers to provide css styling to the image
@@ -47,7 +47,7 @@ $(document).ready(function() {
   $('.btn').click(function() {
     //if statement to make sure the user has enough clicks to purchase add-ons
     if ($(this).data("cost") < data.accumulatedTotal) {
-      data.accumulatedTotal -=  parseFloat($(this).data("cost").toPrecision(1));
+      data.accumulatedTotal -=  parseFloat($(this).data("cost").toPrecision(1.0));
       data.actualTotal += parseFloat($(this).data("val"));
       $(this).children("span").html( parseInt($(this).children("span").html()* 1.1));
       $(this).data("cost", parseInt($(this).data("cost") * 1.1));
